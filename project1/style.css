@@ -1,0 +1,111 @@
+ *
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+ }
+ html{
+    font-family: "Poppins" sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+    color: white;
+ }
+ header
+ {
+   background: #000;
+ }
+ .container
+ {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+     
+    background-color: darkturquoise;
+    
+ }
+ a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+ }
+ ul{
+    display: flex;
+    font-family:Arial, Helvetica, sans-serif;
+    gap: 50px;
+    align-items: center;
+    list-style: none;
+ }
+ .logo
+ {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Trebuchet MS';
+ }
+ .li
+ {
+    text-align: center;
+    text-decoration: none;
+ }
+ nav li:hover{
+    border-bottom: 2px yellow solid;
+ }
+ .hero
+ {
+    background: black;
+     height:400px;
+     border-bottom: 4px  black solid;
+ }
+ @media (width:500px) {
+ .hero{
+   background-color: #000;
+   font-style: normal;
+   font-size: small;
+ }
+ img
+ {
+   width: auto;
+   color: #000;
+   height: auto;
+ }
+ html{
+   width: auto;
+   height: auto;
+   background-color: aqua;
+   box-sizing: border-box;
+ }
+   
+ } 
+   
+ 
+ .Hero-contain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+ }
+ img
+ {
+     height: 300px;
+     width: 300px;
+      
+     background-clip: border-box;
+     border-radius: 50%;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ .contain
+ {
+    height: 400px;
+    background: forestgreen;
+ }
+ .gridcontain
+ {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+ }
+  
